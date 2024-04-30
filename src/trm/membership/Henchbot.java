@@ -1,7 +1,5 @@
 package trm.membership;
 
-import java.util.List;
-
 import bender.Bender;
 
 public class Henchbot {
@@ -20,9 +18,9 @@ public class Henchbot {
         System.out.println("Henchbot " + this.name + " interrogated " + name + ".");
     }
 
-    public void breakParts(String name, List<String> parts) {
-        for (int i = 0; i < parts.size(); i++) {
-            System.out.println("Henchbot " + this.name + " broke " + parts.get(i) + " from " + name + ".");
+    public void breakParts(String name, String...parts) {
+        for (int i = 0; i < parts.length; i++) {
+            System.out.println("Henchbot " + this.name + " broke " + parts[i] + " from " + name + ".");
         }
     }
 

@@ -13,6 +13,10 @@ public class TinnyTim extends JoeyMousepad {
     }
 
     public void attendFuneral(String name) {
-        System.out.println("Tinny Tim is attending the funeral of " + name + ".");
+        if(this.inJail) {
+            System.out.println("Tinny Tim cannot attent a funeral as he is in jail!");
+        } else {
+            System.out.println("Tinny Tim is attending the funeral of " + name + ".");
+        }
     }
 }

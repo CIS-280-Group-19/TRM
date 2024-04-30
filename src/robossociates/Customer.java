@@ -6,7 +6,8 @@ public class Customer {
     public String name;
     public boolean trusted = false;
 
-    public Customer(String name, boolean trusted) {
+    public Customer(String name) {
+        this.name = name;
         System.out.println("The customer's name is " + name + ".");
     }
 

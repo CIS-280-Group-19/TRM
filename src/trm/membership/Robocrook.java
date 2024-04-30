@@ -4,6 +4,7 @@ public class Robocrook {
     public String name;
 
     public Robocrook(String name) {
+        this.name = name;
         System.out.println("The robocrook's name is " + name + ".");
     }
 

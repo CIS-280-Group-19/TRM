@@ -4,6 +4,7 @@ public class Bookkeeper {
     public String name;
 
     public Bookkeeper(String name) {
+        this.name = name;
         System.out.println("The bookkeeper's name is " + name + ".");
     }
 

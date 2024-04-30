@@ -9,6 +9,8 @@ public class BusinessOwner {
     public String businessName;
 
     public BusinessOwner(String name, String businessName) {
+        this.name = name;
+        this.businessName = businessName;
         System.out.println(name + " owns " + businessName + ".");
     }
 
@@ -23,6 +25,6 @@ public class BusinessOwner {
     }
 
     public void launderMoney(double money) {
-        System.out.println("$" + money + " has been laundered.");
+        System.out.println("$" + money + " has been laundered through " + this.businessName + ".");
     }
 }
