@@ -16,4 +16,8 @@ public class Clamps extends Donbot {
     public void counselDonbot(String advice) {
         System.out.println("Clamps has advised Donbot that " + advice + ".");
     }
+
+    public static int getProfitPercentValue() {
+		return 15;
+	}
 }

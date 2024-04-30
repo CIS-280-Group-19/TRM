@@ -8,22 +8,22 @@ public class Robocrook {
     }
 
     public void traffick(String part) {
-        System.out.println("Robocrook is trafficking " + part + ".");
+        System.out.println("Robocrook " + this.name + " is trafficking " + part + ".");
     }
 
     public void runScheme(String language) {
-        System.out.println("Robocrook is running " + language + ".");
+        System.out.println("Robocrook " + this.name + " is running " + language + ".");
     }
 
     public void blackmail(String name) {
-        System.out.println("Robocrook is blackmailing " + name + ".");
+        System.out.println("Robocrook " + this.name + " is blackmailing " + name + ".");
     }
 
     public void arson(String place) {
-        System.out.println("Robocrook set fire to " + place + ".");
+        System.out.println("Robocrook " + this.name + " set fire to " + place + ".");
     }
 
     public void steal(String object) {
-        System.out.println("Robocrook stole a " + object + ".");
+        System.out.println("Robocrook " + this.name + " stole a " + object + ".");
     }
 }

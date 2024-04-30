@@ -8,7 +8,8 @@ public class TinnyTim extends JoeyMousepad {
     }
 
     public void takeFall(String name, String crime) {
-        System.out.println("Tinny Tim is taking the fall for " + name + " after he " + crime + ".");
+        this.inJail = true;
+        System.out.println("Tinny Tim is taking the fall for " + name + " for " + crime + ".");
     }
 
     public void attendFuneral(String name) {

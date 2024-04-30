@@ -10,6 +10,9 @@ public class Order {
     public Customer buyer;
 
     public Order(String product, double cost, Robossociate seller, Customer buyer) {
-        System.out.println(seller + " has sold a " + product + " for $" + cost + " to " + buyer + ".");
+        this.product = product;
+        this.cost = cost;
+        this.seller = seller;
+        this.buyer = buyer;
     }
 }

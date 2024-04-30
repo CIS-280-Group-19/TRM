@@ -10,4 +10,8 @@ public class JoeyMousepad extends Clamps {
     public void overseeOperation(String operation) {
         System.out.println("Joey Mousepad is overseeing " + operation + ".");
     }
+
+    public static int getProfitPercentValue() {
+		return 10;
+	}
 }

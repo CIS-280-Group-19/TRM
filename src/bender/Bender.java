@@ -1,11 +1,13 @@
 package bender;
 
 public class Bender {
-    public Bender() {
+    public String name;
 
+    public Bender() {
+        this.name = "Bender";
     }
 
     public void betrayTRM() {
-        System.out.println("Bender has betrayed TRM.");
+        System.out.println(name + " has betrayed TRM.");
     }
 }

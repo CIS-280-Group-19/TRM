@@ -10,4 +10,8 @@ public class Bookkeeper {
     public void runNumbers() {
         System.out.println("The bookkeeper has run the numbers.");
     }
+
+    public static int getProfitPercentValue() {
+		return 5;
+	}
 }
