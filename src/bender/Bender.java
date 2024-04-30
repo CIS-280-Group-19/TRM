@@ -3,8 +3,8 @@ package bender;
 public class Bender {
     public String name;
 
-    public Bender() {
-        this.name = "Bender";
+    public Bender(String name) {
+        this.name = name;
     }
 
     public void betrayTRM() {
